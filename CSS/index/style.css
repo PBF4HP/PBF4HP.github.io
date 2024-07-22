@@ -1,0 +1,286 @@
+/* BASIC */
+/* MAIN "LABEL" */
+#in1{background:rgb(121, 121, 121);}
+.div{
+    border:rgb(156, 156, 156) solid 1px;
+    border-radius: 20px;
+    width:500px;
+    height:300px;
+    margin:auto;
+    overflow: hidden;
+
+}
+.hiddenpower{
+    background: #303030;
+    height: 70px;
+    width:500px;
+    margin:auto;
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: 70px; 
+}
+.hiddenpower a{
+    vertical-align: middle;
+    font-size: 31px;
+    float:left;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.hiddenpower .aa{
+    font-size: 31px;
+    float:left;
+    margin-left: 0px;
+}
+.line1{background: darkgray;}
+.line2{background: gray;}
+.linem{background:rgb(100, 100, 100);}
+.line1,.line2,.linem{width:100%;height: 42.8px;}
+.linem div,.line2 div,.line1 div{float:left;}
+.p{
+
+    width:100px;
+    height:100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 42.8px; 
+    font-size:27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pr{
+    width:100px;
+    height:100%;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 42.8px; 
+    font-size:22px;
+}
+/*SAVING*/
+.buttond {
+    right:0px !important;
+}
+#button{
+    position: fixed;
+    right:-302px;
+    bottom:0;
+    background: #444;
+    height:600px;
+    width:300px;
+    text-align: left;
+    border:#3f3f3f solid 1px;
+    border-radius: 100px 0px 0px 0px;
+    transition: 1s;
+    transition-timing-function: ease;
+}
+#button #bar{
+    top:37.5%;
+    position: absolute;
+    width:352px;
+    height:50px;
+    left:-52px;
+    border-radius: 10px 0px 0px 10px;
+    background: #444;
+    text-align: left;
+    overflow: hidden;
+
+}
+#barbackground{
+    width:50px;
+    height: 50px;
+    background-color: #3d3d3d;
+    transition: 0.2s;
+}
+#barbackground:hover{
+    background-color: #3a3a3a;
+}
+#button #bar #popup{
+    font-family:Arial;
+    width:50px;
+    height: 50px;
+    outline:none;
+    border:none;
+    color:white;
+    background:none;
+    transition: 1s;
+    font-size: 40px;
+    cursor:grab;
+    background:none;
+}
+.buttond #popup{
+    transform: rotate(180deg);
+}
+#base{
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    border-radius: 100px 0px 0px 0px;
+    background-color: #3d3d3d;
+    overflow: hidden;
+    position:absolute;
+}
+#creator{
+    top:0px;
+    width:300px;
+    height: 37%;
+}
+#creator .namepo{
+    position: absolute;
+    right: 65px;
+    top:15px;
+    width: 170px;
+    height: 25px;
+    outline: none;
+    border: #333;
+    background-color: rgb(197, 197, 197);
+    border-radius:2px;
+}
+::placeholder {
+    text-align: center !important;
+}
+.IV{
+    width:40px;
+    height: 25px;
+    outline: none;border:none;
+    border-radius:2px;
+    background-color: lightgray;
+    color:darkslategray;
+}
+#i0,#i1,#i2,#i3,#i4,#i5{position: absolute;top:50px;}
+#i0{left:18px;}
+#i1{left:63px;}
+#i2{left:108px;}
+#i3{left:153px;}
+#i4{left:198px;}
+#i5{left:243px;}
+.create{
+    position: absolute;
+    top:15px;right:35px;
+    width:27px;height:27px;
+    background-color: rgb(197, 197, 197);
+    outline: none;border: none;
+    border-radius:2px;
+    color:darkslategray;font-size:20px;font-family:Arial;
+    transition: 0.2s;
+}
+.create:hover{
+    background-color: rgb(168, 168, 168);
+    color:rgb(37, 61, 61);
+}
+#hid{
+    position: absolute; 
+    top:100px;left:18px;
+}
+#storage{
+    position: absolute;
+    top:190px;
+    width:300px;
+    height: 68%;
+    overflow: auto;
+}
+#storage .label{
+    width:300px;
+    height: 40px;
+    transition:0.5s;
+}
+#storage .label #rlabel{
+    width:300px;
+    height: 30px;
+    background-color: rgb(71, 71, 71);
+    transition:0.5s;
+    overflow: hidden;
+}
+#storage .label #rlabel #mlabel{
+    height: 30px;
+    width:30px;
+}
+#mbutton1{
+    position: absolute;
+    
+    height: 15px;
+    width:20px;
+    outline: none;
+    border: none;
+    background:none;
+    text-align: left;
+    color:white;
+    font-size: 10px;
+}
+#mbutton2{
+    position: absolute;
+    margin-top: 15px;
+    height: 15px;
+    width:20px;
+    text-align: left;
+    outline: none;
+    border: none;
+    background:none;
+    color:white;
+    font-size: 10px;
+}
+#open{
+    line-height: 30px; 
+    vertical-align: middle;
+    position: absolute;
+    left:30px;
+    width: 30px;
+    height: 30px;
+    background: none;
+    outline:none;
+    border:none;
+    color:white;
+    font-size: 25px;
+    transition:0.5s;
+    transform: rotate(180deg);
+}
+#remove{
+    line-height: 30px; 
+    vertical-align: middle;
+    position: absolute;
+    right:5px;
+    width: 30px;
+    height: 30px;
+    background: none;
+    outline:none;
+    border:none;
+    color:white;
+    font-size: 20px;
+}
+.opened #rlabel{
+    height: 180px !important;
+}
+.opened {
+    height: 190px !important;
+}
+.opened #open{
+    transform: rotate(360deg);
+}
+#minput{
+    position: absolute;
+    left:70px;
+    line-height: 20px; 
+    margin-top: 5px;
+    vertical-align: middle;
+    height: 20px;
+    border: none;
+    outline: none;
+    width: 150px;
+    border-radius: 2px;
+    background: rgb(151, 151, 151);
+    text-align: center;
+    color:darkslategray;
+}
+.IV2{
+    width:40px;
+    height: 25px;
+    outline: none;border:none;
+    border-radius:2px;
+    background-color: lightgray;
+    color:darkslategray;
+    margin-left: 1px;
+}
+#hide{
+    margin-left: 1px;
+}
+/* */

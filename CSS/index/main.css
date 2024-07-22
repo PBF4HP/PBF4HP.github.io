@@ -1,0 +1,14 @@
+body{color:white;background: #333;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.p input{
+    width:50px;
+    height: 30px;
+    font-size:22px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:rgb(156, 156, 156);
+    text-align: center;
+    outline: none;
+    border:none;
+    font-weight: bold;
+
+}
