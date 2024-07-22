@@ -5,4 +5,4 @@
 
 ### Updates:
   - 1.0.3 - added saving + feature to save favourite hidden powers
-  - 1.0.4 - repaired some bugs
+  - 1.0.4 - repaired some bugs + added embed to link
